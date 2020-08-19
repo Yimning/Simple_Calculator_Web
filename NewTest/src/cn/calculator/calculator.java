@@ -4,12 +4,12 @@ import java.math.BigDecimal;
 
 //封装计算器数据的Bean 	
 public class calculator {
-
+      
 	private String firstNum = "0" ;
 	private String secondNum = "0";
 	private char oper = '+';
 	private String result = "0";
-	
+	//Setter 和Getter方法
 	public String getFirstNum() {
 		return firstNum;
 	}
